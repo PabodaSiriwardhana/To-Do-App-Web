@@ -1,0 +1,41 @@
+.task-form-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .task-form-container h2 {
+    margin-bottom: 16px;
+    color: #333;
+  }
+  
+  .task-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .form-group label {
+    font-weight: 500;
+  }
+  
+  .btn-add {
+    background-color: #2196f3;
+    color: white;
+    padding: 10px;
+    font-weight: 500;
+    align-self: flex-start;
+  }
+  
+  .btn-add:hover {
+    background-color: #1976d2;
+  }
+  
